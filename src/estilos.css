@@ -1,0 +1,107 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('/public/pexels-brett-sayles-1115358.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #root {
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  #destination-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .card strong {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  
+  .card p {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .card button {
+    background: #dc3545;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .card button:hover {
+    background: #a71d2a;
+  }
+  
